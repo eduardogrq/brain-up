@@ -678,6 +678,7 @@ footer .rrss-footer a:last-child {
     left: 0;
     display: flex;
     justify-content: center;
+    
 }
 
 .display-video .text-video .next-btn button {
@@ -690,12 +691,13 @@ footer .rrss-footer a:last-child {
     font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .display-video .video {
     margin: auto 0;
     width: 58%;
-    background: blue;
+    /* background: blue; */
     border-radius: 30px;
     margin-left: 2%;
     height: 400px;
