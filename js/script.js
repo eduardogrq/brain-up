@@ -109,6 +109,18 @@ $('#segundo-fce-materia').click(function(){
         $('#segundo-fce-recursos').addClass(' d-block');      
 })
 
+$('#segundo-fisica-materia').click(function(){
+   
+        hideResourses()
+        $('#segundo-fisica-recursos').addClass(' d-block');      
+})
+
+$('#segundo-historia-materia').click(function(){
+   
+        hideResourses()
+        $('#segundo-historia-recursos').addClass(' d-block');      
+})
+
 
 
 
@@ -148,7 +160,7 @@ if(localStorage.getItem("counter") == 1){
         document.getElementById('respuesta-2').checked = true;
         document.getElementById('segundo-espanol').checked = true;
 } else if(localStorage.getItem("counter") == 3){
-        
+
 
         document.getElementById('respuesta-3').checked = true;
         document.getElementById('tercero-espanol').checked = true;

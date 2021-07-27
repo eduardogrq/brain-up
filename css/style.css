@@ -514,12 +514,13 @@ footer .rrss-footer a:last-child {
 .school-resources .contain-books {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-around; */
 }
 
 .school-resources .contain-books .book {
     margin-bottom: 30px;
     text-decoration: none;
+    margin: 0 9px;
 }
 
 .school-resources .contain-books .book .title-book h4{
