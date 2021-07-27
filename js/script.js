@@ -133,8 +133,43 @@ $('#segundo-matematicas-materia').click(function(){
         $('#segundo-matematicas-recursos').addClass(' d-block');      
 })
 
+// Tercer grado ************************
 
+$('#tercero-espanol-materia').click(function(){
+   
+        hideResourses()
+        $('#tercero-espanol-recursos').addClass(' d-block');      
+})
 
+$('#tercero-fce-materia').click(function(){
+   
+        hideResourses()
+        $('#tercero-fce-recursos').addClass(' d-block');      
+})
+
+$('#tercero-historia-materia').click(function(){
+   
+        hideResourses()
+        $('#tercero-historia-recursos').addClass(' d-block');      
+})
+
+$('#tercero-ingles-materia').click(function(){
+   
+        hideResourses()
+        $('#tercero-ingles-recursos').addClass(' d-block');      
+})
+
+$('#tercero-matematicas-materia').click(function(){
+   
+        hideResourses()
+        $('#tercero-matematicas-recursos').addClass(' d-block');      
+})
+
+$('#tercero-quimica-materia').click(function(){
+   
+        hideResourses()
+        $('#tercero-quimica-recursos').addClass(' d-block');      
+})
 
 // Videos ***************************************************************
 
