@@ -121,6 +121,18 @@ $('#segundo-historia-materia').click(function(){
         $('#segundo-historia-recursos').addClass(' d-block');      
 })
 
+$('#segundo-ingles-materia').click(function(){
+   
+        hideResourses()
+        $('#segundo-ingles-recursos').addClass(' d-block');      
+})
+
+$('#segundo-matematicas-materia').click(function(){
+   
+        hideResourses()
+        $('#segundo-matematicas-recursos').addClass(' d-block');      
+})
+
 
 
 
