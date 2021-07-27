@@ -906,3 +906,7 @@ footer .rrss-footer a:last-child {
         overflow-x: hidden;
     }
 }
+
+.selected-button{
+    background: red;
+}
