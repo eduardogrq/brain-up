@@ -207,7 +207,11 @@ if(localStorage.getItem("counter") == 1){
         document.getElementById('respuesta-2').checked = true;
         document.getElementById('segundo-espanol').checked = true;
 } else if(localStorage.getItem("counter") == 3){
+        $('#primer-grado').removeClass('d-block').addClass('d-none')
+        $('#biologia-recursos').removeClass('d-block').addClass('d-none')
 
+        $('#tercero-espanol-recursos').removeClass('d-none').addClass('d-block')
+        $('#tercer-grado').removeClass('d-none').addClass('d-block')
 
         document.getElementById('respuesta-3').checked = true;
         document.getElementById('tercero-espanol').checked = true;
